@@ -11,33 +11,49 @@ To identify distinct customer segments and recommend appropriate banking product
 **Dataset**
 
 Source: UCI Machine Learning Repository – Bank Marketing Dataset
-File: bank-additional-full.csv
+
+File: bank-additional-full.csv (provided in data file)
+
 Records: 41,188 customers
 
 **Features used:**
 
 Age
+
 Campaign contact behavior
+
 Previous interactions
+
 Interest rate environment (euribor3m)
+
 Macroeconomic indicators
+
 Employment & confidence indexes
 
 **Methodology**
 
 Data cleaning and preprocessing
+
 Feature scaling
+
 PCA for dimensionality reduction
+
 K-Means clustering
+
 Hierarchical clustering for validation
+
 Cluster profiling
+
 Rule-based product recommendation engine
 
 **Product Recommendation Logic**
 
 0:	High-confidence, stable customers	Time Deposit + Investment
+
 1:	Active high-frequency contacts	Credit Card growth
+
 2:	Low-activity dormant customers	Re-activation campaign
+
 3:	Economically stressed customers	Controlled Personal Loan
 
 **Results**
